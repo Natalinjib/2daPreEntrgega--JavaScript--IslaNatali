@@ -58,8 +58,11 @@ while (!end) {
   }
 }
 
-if (history.length > 0) {
+function Clousure(history,fullName){if (history.length > 0) {
   alert(`Gracias por tu contacto, este es tu resumen:\n${history.join('')}`);
 } else {
   alert(`Gracias por tu contacto ${fullName}`);
 }
+}
+
+Clousure(history,fullName)
